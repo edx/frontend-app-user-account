@@ -49,13 +49,6 @@ This MFE is configured via node environment variables supplied at build time. Se
 For more information see the document: `Micro-frontend applications in Open
 edX <https://edx.readthedocs.io/projects/edx-developer-docs/en/latest/micro-frontends-in-open-edx.html>`__.
 
-----------
-
-Notes
------
-
-The production Webpack configuration for this repo uses `Purgecss <https://www.purgecss.com/>`__ to remove unused CSS from the production css file. In ``webpack.prod.config.js`` the Purgecss plugin is configured to scan directories to determine what css selectors should remain. Currently the src/ directory is scanned along with all ``@edx/frontend-component*`` node modules and ``@edx/paragon``. **If you add and use a component in this repo that relies on HTML classes or ids for styling you must add it to the Purgecss configuration or it will be unstyled in the production build.**
-
 .. |Build Status| image:: https://api.travis-ci.org/edx/frontend-app-profile.svg?branch=master
    :target: https://travis-ci.org/edx/frontend-app-profile
 .. |Codecov| image:: https://img.shields.io/codecov/c/github/edx/frontend-app-profile
