@@ -55,7 +55,7 @@
     "email-prop-type": "1.1.7",
     "font-awesome": "4.7.0",
     "form-urlencoded": "3.0.2",
-    "history": "4.10.1",
+    "history": "5.0.0",
     "lodash.camelcase": "4.3.0",
     "lodash.get": "4.4.2",
     "lodash.memoize": "4.1.2",
